@@ -1,4 +1,5 @@
 
+import Booking from "@/components/booking/Booking";
 import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
@@ -7,8 +8,8 @@ export default function Home() {
     <div>
 
       <div className="grid grid-cols-1 md:grid-cols-3">
-        <div className="bg-red-100">
-          Booking
+        <div>
+          <Booking />
         </div>
         <div className="bg-blue-100 col-span-2">
           map
