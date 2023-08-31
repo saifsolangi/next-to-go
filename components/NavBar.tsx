@@ -13,7 +13,7 @@ const NavBar = () => {
             <div className='hidden md:flex gap-3 font-bold '>
                 <h1 className='cursor-pointer hover:bg-gray-100 rounded-md px-4 py-1 transition-all'>Home</h1>
                 <h1 className='cursor-pointer hover:bg-gray-100 rounded-md px-4 py-1 transition-all'>History</h1>
-                <h1 className='cursor-pointer hover:bg-gray-100 rounded-md px-4 py-1 transition-all'>Help</h1>
+                <h1 className='cursor-pointer hover:bg-gray-100 rounded-md px-4 py-2transition-all'>Help</h1>
             </div>
             <div className=''>
                 <UserButton afterSignOutUrl="/" />
